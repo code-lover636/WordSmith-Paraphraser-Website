@@ -7,7 +7,7 @@ async function paraphrase(text) {
         method: 'POST',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '15a2a9dc5bmsh020a3872b83c185p10621ejsnd08f0392c827',
+            'X-RapidAPI-Key': '',
             'X-RapidAPI-Host': 'rewriter-paraphraser-text-changer-multi-language.p.rapidapi.com'
         },
         body: `{"language":"en","strength":3,"text":"${text}"}`
